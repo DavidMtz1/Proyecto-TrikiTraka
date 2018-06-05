@@ -1,0 +1,84 @@
+
+
+body {
+  background-image:url("https://i.vimeocdn.com/video/618828364_780x439.jpg");
+  font-size: 1.8em;
+    background-size: 125% 120%;
+     font: arial, sans-serif;
+      color: white;
+}
+
+.zoom {
+    padding: 0px;
+    text-align: center;
+    background-color: black;
+    transition: transform .2s; //ANIMACION
+    width: 100px;
+    height: 100px;
+    margin-right: 1px;
+    margin-top: 1px;
+}
+
+.zoom:hover {
+    transform: scale(1.5);
+}
+
+.container {
+  padding: 10px;
+  margin: 10px;
+}
+
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 38px;
+  font-weight: bold;
+  line-height: 34px;
+  margin-right: 1px;
+  margin-top: 1px;
+  padding: 0;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  color: black;
+}
+
+
+.square:hover {
+  cursor: pointer;
+   background: #eee;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.game-info { // SELECCIONAR
+  margin: 20px;
+  text-align: center;
+  color: black;
+}
+
+.game-history {
+  margin: 20px;
+  text-align: center;
+  color: black;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.game-title { //TITULO
+  margin: 20px;
+  text-align: center;
+  font-size: 1.5em;
+  color: white;
+}
